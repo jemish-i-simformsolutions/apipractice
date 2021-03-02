@@ -1,0 +1,9 @@
+#tbtn {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#titlebar {
+  height: 40px;
+  background-color: aquamarine;
+}
