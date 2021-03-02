@@ -27,4 +27,5 @@ export const GetUser=()=>{
 //axios.get(url)
 //axios.post(url,body,...)
 //Promise.all([1st promise,2nd promise]).then(res=>{const a=res[0] const b=res[1]}).catch(err=>err)
-//Promise.all([1st promise,2nd promise]).then(axios.spred(u1,u2)=>{const a=u1,const b=u2}).catch(err=>err)
+//Promise.all([1st promise,2nd promise]).then(axios.spread(u1,u2)=>{const a=u1,const b=u2}).catch(err=>err)
+//https://blog.logrocket.com/how-to-make-http-requests-like-a-pro-with-axios/
