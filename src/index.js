@@ -6,7 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { MainComponent } from "./Component/MainComponent";
 import Router from "./Component/Router";
 import ApiBinding from "./Component/apibinding";
+import { GetUser } from "./Component/Pro";
 
-ReactDOM.render(<ApiBinding />, document.getElementById("root"));
+ReactDOM.render(<><GetUser /></>, document.getElementById("root"));
 
 reportWebVitals();

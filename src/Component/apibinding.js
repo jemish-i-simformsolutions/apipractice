@@ -26,7 +26,8 @@ class ApiBinding extends React.Component {
       //     body: "happy happy",
       //   }),
     })
-      .then((res) => res.json)
+      .then((res) => 
+        console.log(res))
       .catch((err) => console.log(err));
   };
   handleSubmit = (event) => {
@@ -56,6 +57,7 @@ class ApiBinding extends React.Component {
       })
       .catch((err) => console.log(err));
   };
+  
   render() {
     return (
       <>
@@ -67,7 +69,7 @@ class ApiBinding extends React.Component {
           <input type="text" id="text" name="text" />
           <br />
           <button type="submit">submit</button>
-          {console.log(this.state.posts)}
+          {/* {console.log(this.state.posts)} */}
         </form>
         <button onClick={this.delete}>click to delete</button>
       </>
